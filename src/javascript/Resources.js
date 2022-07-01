@@ -32,17 +32,14 @@ import introInstructionsOtherSource from '../models/intro/instructions/other.png
 import introArrowKeyBaseSource from '../models/intro/arrowKey/base.glb'
 import introArrowKeyCollisionSource from '../models/intro/arrowKey/collision.glb'
 
+import introABaseSource from '../models/intro/a/base.glb'
+import introACollisionSource from '../models/intro/a/collision.glb'
+
 import introBBaseSource from '../models/intro/b/base.glb'
 import introBCollisionSource from '../models/intro/b/collision.glb'
 
-import introRBaseSource from '../models/intro/r/base.glb'
-import introRCollisionSource from '../models/intro/r/collision.glb'
-
 import introUBaseSource from '../models/intro/u/base.glb'
 import introUCollisionSource from '../models/intro/u/collision.glb'
-
-import introNBaseSource from '../models/intro/n/base.glb'
-import introNCollisionSource from '../models/intro/n/collision.glb'
 
 import introOBaseSource from '../models/intro/o/base.glb'
 import introOCollisionSource from '../models/intro/o/collision.glb'
@@ -50,11 +47,13 @@ import introOCollisionSource from '../models/intro/o/collision.glb'
 import introSBaseSource from '../models/intro/s/base.glb'
 import introSCollisionSource from '../models/intro/s/collision.glb'
 
-import introIBaseSource from '../models/intro/i/base.glb'
-import introICollisionSource from '../models/intro/i/collision.glb'
+import introLBaseSource from '../models/intro/l/base.glb'
+import introLCollisionSource from '../models/intro/l/collision.glb'
 
-import introMBaseSource from '../models/intro/m/base.glb'
-import introMCollisionSource from '../models/intro/m/collision.glb'
+import introTBaseSource from '../models/intro/t/base.glb'
+import introTCollisionSource from '../models/intro/t/collision.glb'
+
+
 
 import introCreativeBaseSource from '../models/intro/creative/base.glb'
 import introCreativeCollisionSource from '../models/intro/creative/collision.glb'
@@ -250,29 +249,28 @@ export default class Resources extends EventEmitter
             { name: 'introArrowKeyBase', source: introArrowKeyBaseSource },
             { name: 'introArrowKeyCollision', source: introArrowKeyCollisionSource },
 
+            { name: 'introABase', source: introABaseSource },
+            { name: 'introACollision', source: introACollisionSource },
+
             { name: 'introBBase', source: introBBaseSource },
             { name: 'introBCollision', source: introBCollisionSource },
-
-            { name: 'introRBase', source: introRBaseSource },
-            { name: 'introRCollision', source: introRCollisionSource },
-
-            { name: 'introUBase', source: introUBaseSource },
-            { name: 'introUCollision', source: introUCollisionSource },
-
-            { name: 'introNBase', source: introNBaseSource },
-            { name: 'introNCollision', source: introNCollisionSource },
-
-            { name: 'introOBase', source: introOBaseSource },
-            { name: 'introOCollision', source: introOCollisionSource },
 
             { name: 'introSBase', source: introSBaseSource },
             { name: 'introSCollision', source: introSCollisionSource },
 
-            { name: 'introIBase', source: introIBaseSource },
-            { name: 'introICollision', source: introICollisionSource },
+            { name: 'introOBase', source: introOBaseSource },
+            { name: 'introOCollision', source: introOCollisionSource },
 
-            { name: 'introMBase', source: introMBaseSource },
-            { name: 'introMCollision', source: introMCollisionSource },
+            { name: 'introLBase', source: introLBaseSource },
+            { name: 'introLCollision', source: introLCollisionSource },
+
+            { name: 'introUBase', source: introUBaseSource },
+            { name: 'introUCollision', source: introUCollisionSource },
+
+            { name: 'introTBase', source: introTBaseSource },
+            { name: 'introTCollision', source: introTCollisionSource },
+
+           
 
             { name: 'introCreativeBase', source: introCreativeBaseSource },
             { name: 'introCreativeCollision', source: introCreativeCollisionSource },
